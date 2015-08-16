@@ -1,23 +1,7 @@
-<ion-view name="home" id="home" view-title="iSpy London" class='title'>
+<ion-view name="tab-home" id="home" view-title="iSpy London" class='title'>
   <ion-content class="padding">
-  <ion-scroll  direction="x">
-    <img src="img/london.png" alt="London" usemap="#londonmap" style="width:1500px;height:375px;">
-    </ion-scroll>
-
-    <map name="londonmap">
-      <area shape="rect" coords="100,251,124,317" alt="Mailbox" href="mailbox.htm">
-      <area shape="rect" coords="182,257,306,313" alt="Taxicab" href="taxicab.htm">
-      <area shape="poly" coords="12,315,60,13,84,315" alt="Shard" href="shard.htm">
-      <area shape="rect" coords="904,213,1054,319" alt="Bus" href="bus.htm">
-      <area shape="rect" coords="1352,249,1358,319" alt="Phone" href="phone.htm">
-      <area shape="rect" coords="776,261,792,315" alt="Man" href="man.htm">
-      <area shape="rect" coords="486,159,712,317" alt="Bridge" href="bridge.htm">
-      <area shape="poly" coords="338,315,340,123,352,97,362,45,370,83,368,101,382,121,380,315" alt="BigBen" href="bigben.htm">
-      <area shape="circle" coords="1208,211,100" alt="LondonEye" href="londoneye.htm">
-      <area shape="poly" coords="1402,317,1402,181,1416,91,1432,59,1444,53,1468,83,1484,165,1490,249,1486,315" alt="Mary" href="mary.htm">
-    </map>
-    
-
- 
+  <ion-scroll  direction="y">
+    <img src="img/london_01.gif" alt="London" ng-click="showAlert()" data-placement="right" height="100%" style="opacity:0.5"><a href="#/tab/photoalbum" ><img src="img/london_03.gif" alt="London" border="0" height="100%"></a><img src="img/london_04.gif" alt="London" ng-click="showAlert2()" border="0" height="100%"><img src="img/london_05.gif" style="opacity:0.5" alt="London" border="0" height="100%"><img src="img/london_06.gif" alt="London" border="0" height="100%"><img src="img/london_07.gif" ng-click="showAlert2()" style="opacity:0.5" alt="London" border="0" height="100%">
+   </ion-scroll>
   </ion-content>
 </ion-view>
